@@ -8,5 +8,10 @@ namespace PadraoBuilder
 {
     internal class Computador
     {
+        public string Modelo { get; set; }
+        public string Processador { get; set; }
+        public int MemoriaRam { get; set; }
+        public int Armazenamento { get; set; }
+        public bool PlacaDeVideo { get; set; }
     }
 }

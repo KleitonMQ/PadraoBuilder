@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace PadraoBuilder
 {
-    internal class IComputadorBuilder
+    interface IComputadorBuilder
     {
+        void EscolherModelo(string modelo);
+        void EscolherProcessador(string processador);
+        void EscolherMemoriaRam(int memoriaRam);
+        void EscolherArmazenamento(int armazenamento);
+        void EscolherPlacaDeVideo(bool placaDeVideo);
+        Computador ObterComputador();
     }
 }
